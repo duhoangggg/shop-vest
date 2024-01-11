@@ -1,0 +1,2404 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+
+.SanPham {
+    background-color: #cccc;
+    padding-top: 0px;
+}
+
+.khung_than1 {
+    background-color: #ccc;
+}
+.anhchan {
+     position:absolute;
+     left: 0;
+     z-index:1;
+     visibility:hidden;
+}
+.anhnhochan {
+    width: 1200px;
+    height: 450px;
+}
+.clear{
+  clear: both;
+}
+
+
+.size-color{
+  border-left: 4px solid #c9ae63;
+}
+.size-color a{
+  color: #c9ae63;
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 24px;
+
+}
+.Container{
+  margin: 0 auto;
+  position: relative;
+  /* width: 1400px; */
+  /* height: 364px; */
+  display: flex;
+  padding: 0 15px;
+  flex-direction: column;
+}
+.banner-Container .Anh1{
+  margin-top: 30px;
+  width: 79.4%;
+  height: 579px;
+  margin-left: 208px;
+  margin-right: 210px;
+  position: relative;
+  margin-bottom: 16px;
+}
+.Container .Chu_Nho{
+  margin-top: 30px;
+  width: 2000px;
+  font-size: 20px;
+  margin-left: 210px;
+  margin-right: 210px;
+}
+.Chu_Nho ul li {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+}
+.Chu_Nho ul li a:hover{
+  color: #000000;
+}
+.Chu_Nho ul li a{
+  padding-right: 12px;
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid #000000;
+  font-size: 27px;
+}
+.Chu_Nho .NoiDung{
+  color: black;
+  padding-left: 10px;
+  font-size: 24px;
+}
+.banner-Container .ChuBanner{
+  position: absolute;
+  display: flex;
+  top: 92px;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #454c54;
+  width: 355px;
+  height: 420px;
+  left: 306px;
+  opacity: 0.8;
+  left: 1307px;
+}
+h1{
+  color: rgb(10, 252, 252);
+  position: absolute;
+  top: 11px;
+  font-size: -webkit-xxx-large;
+}
+.ChuBanner .banner{
+  text-align: left;
+  font-size: 28px;
+  font-weight:700;
+  color: white;
+  width: 305px;
+  height: 172px;
+  position: absolute;
+  top: 133px;
+  left: 29px;
+}
+.pagemain{
+  float: left;
+  width: 100%;
+  background-color: #ccc;
+}
+.navigation-left .Khoang_Cach{
+  line-height: 2;
+  background-color: aliceblue;
+  width: 243px;
+  height: 1279px;
+  border-right: 2px solid lavender;
+}
+.navigation-left{
+  margin-left: 200px;
+  float: left;
+  padding-left: 25px;
+  
+
+}
+.navigation-left ul li{
+  list-style: none;
+  display: block;
+  padding: 5px;
+}
+.navigation-left ul li a{
+  text-decoration: none;
+}
+.navigation-left ul li a:hover{
+  color: rgb(143 87 0);
+}
+.navigation-left .Text-Rieng a{
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  border-bottom: 2px solid burlywood;
+}
+.Menu a{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.Menu .menu_1 a{
+  color: #504e4e;
+  padding: 5px 0;
+  font-size: 15px;
+}
+.Menu .menu_2 a{
+  color: #504e4e;
+  padding: 5px 0;
+  font-size: 15px;
+}
+.Menu .menu_3 a{
+  color: #504e4e;
+  padding: 5px 0;
+  font-size: 15px;
+}
+.Menu .menu_4 a{
+  color: #504e4e;
+  padding: 5px 0;
+  font-size: 15px;
+}
+.Menu .menu_5 a{
+  color: #504e4e;
+  padding: 5px 0;
+  font-size: 15px;
+}
+
+.Anh_Ao_1{
+  max-width: 1522px;
+  margin: 0 auto;
+}
+
+.Text_1{
+  display: flex;
+  padding-top: 27px;
+  padding-left: 65px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  height: 57px;
+  width: 1245px;
+  background-color: #fffdfd;
+}
+
+.Text_1:hover .anhchan{
+  visibility:visible;
+}
+
+.icon_1{
+  padding-left: 10px;
+  padding-top: 1px;
+  font-size: 18px;
+}
+/*             --------------------                               */
+ul.products{
+  list-style: none;
+  display: flex;
+  /* Xuống Hàng */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ece7e7;
+  margin-left: 270px;
+}
+ul.products li .products-top .products-thumb {
+  display: block;
+  /* position: relative; */
+}
+ul.products li .products-top{
+  position: relative;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+ul.products li .products-info{
+  padding: 5px 0px;
+}
+ul.products li{
+  flex-basis: 30%;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+ul.products li img{
+  height: 379px;
+  margin-bottom: 0px;
+  display: block;
+  padding-top: 20px;
+  width: 294px;
+}
+.products-top .products-thumb{
+  padding-left: 50px;
+  /* position: absolute; */
+}
+ul.products li:hover .products-top .products-thumb img{
+  filter: opacity(80%);
+}
+.products-top .buy-now{
+  width: 84.2%;
+  /* padding-left: 50px; */
+  margin-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display:block;
+  background-color: #446084;
+  color:#fff;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: -40px;
+  transition: 0.15 ease-in-out;
+  opacity: 1;
+}
+.products-top:hover a.buy-now{
+  display: block;
+  background-color: rgb(137, 134, 134);
+}
+ul.products li:hover .buy-now{
+  bottom: 20px;
+  
+}
+.products-info .products-name {
+  text-decoration: none;
+  color: #8a8a8f; 
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.products-info .products-price{
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*  */
+.Sotrang{
+  width:46px;
+  margin: 0 auto;
+}
+.Sotrang__MucLuc{
+  display: flex;
+  list-style: none;
+  margin-bottom: 50px;
+  background-color: #ece7e7;
+  width: 1245px;
+  margin-left: -461px;
+  padding-left: 588px;
+  padding-bottom: 16px;
+}
+.Sotrang__MucLuc-So a{
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 20px;
+  color: #000000;
+}
+.Sotrang__MucLuc-So a:hover{
+  color: #c9ae63;
+}
+.Sotrang__MucLuc-So--1 a{
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 20px;
+  color: #000000;
+}
+/* ---------------------ket thuc phần chí dũng ---------- */
+
+
+
+input.nutgiui {
+    position: absolute;
+    top: 97px;
+    font-size: 25px;
+    left: 177px;
+    border-radius: 9px;
+    background: lavender;
+    height: 43px;
+    width: 126px;
+    padding: 10px;
+}
+
+input.hoten {
+    font-size: 27px;
+    height: 42px;
+    width: 500px;
+    border-radius: 31px;
+    padding-left: 14px;
+}
+
+strong {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 58px;
+    left: 143px;
+}
+
+a.giohangnho {
+    color: white;
+    font-size: 20px;
+}
+a.nd_dc_2 {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.all-cabai{
+  background: snow;
+  width: 1897px;
+  height: inherit;
+}
+.all{
+  text-align: center;
+  position:relative;
+}
+.khung-menu{
+  text-align: center;
+}
+
+.khung-zero{
+ margin-top: 5px;
+ background: black;
+ border-top:1px solid black;
+ width:100%;
+ height: 36px;
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.mot{
+  color: whitesmoke;
+  font-size:15px;
+  margin-top: 10px;
+}
+.hai{
+  color: red;
+  font-size:12px;
+  margin-top: 10px;
+  margin-left:5px;
+}
+.hai:hover{
+  color:yellow;
+  font-size:13px;
+}
+.ba{
+  color:whitesmoke;
+  margin-left:30px;
+  margin-top: 10px;
+  font-size:10px
+}
+.ba:hover{
+  color:red;
+  font-size:13px;
+}
+.bon{
+  color:whitesmoke;
+  margin-left:10px;
+  margin-top: 10px;
+  font-size:15px;
+}
+.bon:hover{
+  color:red; 
+ font-size:15px;
+}
+.nam{
+  margin-left:900px;
+  margin-right:10px;
+  margin-top: 10px;
+  color:white;
+}
+.sau{
+  color:white;
+  margin-top: 10px;
+}
+/*======================================================================================== */
+.khung-one{
+  color: black;
+  position:absolute;
+}
+.header{
+  height: 80px;
+  display:flex;
+  align-items:center;
+  width: 528px;
+}
+.logo{
+  display:flex;
+  top:1px;
+  margin-left: -23px;
+  margin-right:350px;
+  width: 517px;
+  height: 99px;
+  background-color: #90AFC5;
+  position:absolute;
+  z-index:1;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -o-transform: skew(40deg);
+  transform: skew(-25deg);
+}
+.logo-two{
+  padding-top:35px;
+  font-size: 30px;
+  font-style:italic;
+}
+.logothuonghieu{
+ margin-top: 19px;
+ width: 115px;
+ height: 97px;
+ border-radius: 21px;
+ margin-right:10px;
+ position:absolute;
+ z-index:1;
+ left: 21px;
+ top:-19px;
+}
+.dung{
+  font-size:50px;
+  padding-top: 55px;
+  padding-left: 0px;
+  font-style:italic;
+  position:absolute;
+  z-index:1;
+ left:230px;
+  top:-12px;
+}
+.viet{
+  font-size:79px;
+  padding-top: 38px;
+  color:#00688B;
+  position:absolute;
+  z-index:1;
+  left:150px;
+  top:-20px;
+}
+.lookingfor{
+  padding-left: 10px;
+  width:250px;
+  height:50px;
+  display:flex;
+  flex-direction:row;
+  margin-top:15px;
+}
+.input {
+  background-color: black;
+  border-radius:15px;
+  height: 26px;
+  width:250px;
+  font-size:15px;
+  margin-top: 5px;
+  color: white;
+  padding-left: 15px;
+}
+.button {
+  width:50px;
+  height:30px;
+  padding: 10px 15px;
+  color:white;
+}
+.button:hover{
+  font-size:20px;
+}
+.basket{
+  color: white;
+  margin-left: 25px;
+}
+.basket:hover{
+  color:lightblue;
+}
+/*========================================================================================= */
+.tongkhung_menu{
+  width:100%;
+  height: 99px;
+  background-color: #003B46;
+  border-top: 2px solid white;
+}
+.khung_menu {
+  position:absolute;
+  z-index:999;
+  background-color:black;
+  border-top-left-radius:100px;
+  border-bottom-left-radius:5px;
+  display:flex;
+  margin-top: 47px;
+  margin-left: 620px;
+  align-items:center;
+  width: 1297px;
+  height: 50px;
+  justify-content: center;
+}
+._1menu {
+  display:inline;
+  border-right: 1px solid white;  
+}
+.nd1{
+  position:relative;
+  width:0px;
+  height:0px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  margin-left: 23px;
+  margin-right: 20px;
+}
+
+
+.nd1:after {
+  content: "";
+  position:absolute;
+  z-index:3;
+  width: 0;
+  height: 5px;
+  bottom:-9px;
+  left: 0;
+  font-size:50px;
+  border-radius:10px;
+  background-color:red;
+  transition: width 0.3s;
+}
+._1menu .nd1:hover::after {
+  width: 100%;
+}
+.sale{
+  position:absolute;
+  background-color:red;
+  color:black;
+  border-radius:2px;
+  top:-5px;
+  left: 125px;
+  font-size:10px;
+}
+._1menu:hover .sale{
+  position:absolute;
+  background-color:red;
+  color:black;
+  border-radius:2px;
+  top:-5px;
+  left:125px;
+  font-size:10px;  
+}
+
+
+/*========menu lop 2==================AO===============================================  */
+.menu2_1{
+  display:none;
+  position:absolute;
+  top:87px;
+  z-index:9999;
+  font-size:20px;
+  background-color:whitesmoke;
+  border-bottom: 5px solid skyblue;
+  height:350px;
+  width:170%;
+  left:-625px;
+  border-top: 1px solid navy;
+}
+/* ============================================ */
+
+/* ============================================= */
+._1menu:hover .menu2{
+  display:block;
+}
+
+.all-nd2{
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:60px;
+    margin-left:-900px;
+   
+}
+/* ==================================== */
+.uutien{   
+  color: black;
+  font-size:30px;
+  margin-left:-50px;
+  margin-bottom:50px;
+  margin-top:-200px;
+}
+/*=====================================  */
+.nd2-one{
+    text-decoration:none;
+    font-size:40px;
+    color:black;
+}
+.con-nd2-one{
+  color:black;
+  border-right:2px solid black;
+  margin-right:10px;
+  margin-left:200px;
+  margin-top:-120px;
+  height:150px;
+  width:300px;
+}
+.con-one{
+ margin-left:10px;
+ margin-top:15px;
+}
+.con-one:hover{
+    color:#FF9900;
+}
+.con-two{
+ margin-top:5px;
+ margin-left:px;
+}
+.con-two:hover{
+    color:#FF9900;
+}
+.con-three{
+ margin-left:px;
+ margin-top:5px;
+}
+.con-three:hover{
+    color:#FF9900;
+}
+/* ===================================== */
+.nd2-two{
+    text-decoration:none;
+    font-size:40px;
+    color:black;
+}
+.con-nd2-one-hai{
+  color:black;
+  border-right:2px solid black;
+  margin-right:10px;
+  margin-left:-20px;
+  margin-top:-120px;
+  height:150px;
+  width:300px;
+}
+.con-one-hai{
+ margin-left:px;
+ margin-top:15px;
+}
+.con-one-hai:hover{
+    color:#FF9900;
+}
+.con-two-hai{
+  margin-left:px;
+  margin-top:5px;
+}
+.con-two-hai:hover{
+    color:#FF9900;
+}
+.con-three-hai{
+ margin-left:px;
+ margin-top:5px;
+}
+.con-three-hai:hover{
+    color:#FF9900;
+}
+/*=======================================  */
+.nd2-three{
+    text-decoration:none;
+    font-size:26px;
+    color:black;
+   
+}
+.con-nd2-one-ba{
+  color:black;
+  border-right:2px solid black;
+  margin-right:10px;
+  margin-left:-20px;
+  margin-top:-120px;
+  height:150px;
+  width:300px;
+}
+.con-one-ba{
+ margin-left:px;
+ margin-top:15px;
+}
+.con-one-ba:hover{
+    color:#FF9900;
+}
+.con-two-ba{
+  margin-left:px;
+  margin-top:5px;
+}
+.con-two-ba:hover{
+    color:#FF9900;
+}
+.con-three-ba{
+ margin-left:px;
+ margin-top:5px;
+}
+.con-three-ba:hover{
+    color:#FF9900;
+}
+/*======================================  */
+.nd2-four{
+  text-decoration:none;
+  font-size:25px;
+  color:black;
+}
+.con-nd2-one-tu{
+  color:black;
+  border-right:2px solid black;
+  margin-right:10px;
+  margin-left:-20px;
+  margin-top:-120px;
+  height:150px;
+  width:350px;
+}
+.con-one-tu{
+ margin-top:15px;
+}
+.con-one-tu:hover{
+    color:#FF9900;
+}
+.con-two-tu{
+  margin-left:px;
+  margin-top:5px;
+}
+.con-two-tu:hover{
+    color:#FF9900;
+}
+.con-three-tu{
+ margin-left:px;
+ margin-top:5px;
+}
+.con-three-tu:hover{
+    color:#FF9900;
+}
+/*======================================  */
+/*===anh===================================  */
+.nd2-fif{
+  position:absolute;
+  width:500px;
+  height:345px;
+  top:0px;
+  left:auto; 
+}
+/* ===================================== */
+.nd2-nho{
+  direction:flex;
+  flex-direction:column;
+}
+/* ====================================================================MENU GIAM GIA ===================================================================*/
+
+/* ============Quan======================================= */
+.menu2_2 {
+  display:none;
+  position:absolute;
+  top:87px;
+  z-index:9999;
+  font-size:20px;
+  background-color:whitesmoke;
+  border-bottom:5px solid skyblue;
+  height:350px;
+  width:170%;
+  left:-625px;
+ border-top: 1px solid navy;
+}
+/* ============================================ */
+
+/* ============================================= */
+._1menu:hover .menu21{
+  display:block;
+}
+
+
+
+
+/* ==================Phu kien================================== */
+.menu2_3 {
+   display:none;
+  position:absolute;
+  top:85px;
+  z-index:9999;
+  font-size:20px;
+  background-color:whitesmoke;
+  border-bottom:5px solid skyblue;
+  height:350px;
+  width:170%;
+  left:-625px;
+ border-top: 1px solid navy;
+}
+/* ============================================ */
+
+/* ============================================= */
+._1menu:hover .menu22{
+  display:block;
+}
+/*-=================TRANG CHU============================  */
+.menu2_0 {
+  display:none;
+  position:absolute;
+  top:37px;
+  left:-1000px;
+  z-index:9999;
+  font-size:20px;
+  border-left:5px solid red;
+  height:1px;
+  width:165%;
+}
+/* ============================================ */
+
+/* ============================================= */
+._1menu:hover .menu30{
+  display:block;
+}
+/*-===============Hang moi==============================  */
+.menu2_4 {
+  display:none;
+  position:absolute;
+  top:37px;
+  left:-1000px;
+  z-index:9999;
+  font-size:20px;
+  border-left:5px solid red;
+  height:1px;
+  width:165%;
+}
+/* ============================================ */
+
+/* ============================================= */
+._1menu:hover .menu31{
+  display:block;
+}
+/*========================  */
+/*-=====================dai ly========================  */
+.menu2_5 {
+  display:none;
+  position:absolute;
+  top:37px;
+  left:-1000px;
+  z-index:9999;
+  font-size:20px;
+  border-left:5px solid red;
+  height:1px;
+  width:165%;
+}
+/* ============================================ */
+
+/* ============================================= */
+._1menu:hover .menu32{
+  display:block;
+}
+/*========================  */
+
+/*========================  */
+/*khung den-------------- ==============ben duoi menu============================khung den  */
+ .khungden_0 {
+    position: absolute;
+    background-color: black;
+    z-index: 7;
+    top: 50px;
+    left: 200px;
+    width: 100%;
+    height: 4480px;
+    opacity: 0.7;
+}
+.khungden_1{
+  position:absolute;
+  background-color:black;
+  z-index:7;
+  top:350px;
+  left:-5px;
+  width:100%;
+  height:4480px;
+  opacity:0.7;
+}
+
+        
+
+/*====================================================  */
+.giua-nho{
+ display:flex;
+ background: darkgray;
+ border-top:1px solid whitesmoke;
+ width: 1907px;
+ height: 38px;
+ border-bottom: 2px solid #003B46;
+}
+.mauden{
+ background-color:black;
+ top:-40px;
+ right:0px;
+ width:100%;
+ height:86px;
+ border-bottom:3px solid #363636;
+ border-top-left-radius:0px;
+ border-bottom-left-radius:0px;
+ position:fixed;
+ transition: 0.4s ease; 
+ margin-top:40px;
+} 
+
+
+.nd-giuanho{
+  margin-left: 568px;
+  padding-top:5px;
+  font-size: 24px;
+}
+.nd-taiday{
+  margin-left:15px;
+  margin-top: -5px;
+  padding-top: 5px;
+  font-size: 23px;
+  border-bottom:2px solid red;
+  width:80px;
+  height:36px;
+}
+.nd-taiday:hover{
+  font-size:27px; 
+  color:#CC0000;
+}
+
+
+/* ========================Káº¾T THÃšC MENU============================================================================ */
+.sum-background{
+  display:flex;
+  flex-direction:column;
+  width: 1897px;
+  height: 816px;
+  background-color:#363636;
+  justify-content: ceter;
+  border-top: 0px solid white;
+}
+/*nd----------  */
+.ndtieude{
+  width:2532px;
+  height:60px;
+  display:flex;
+}
+.nd1tieude{
+  text-decoration:none;
+  color:black;
+  font-size:25px; 
+}
+.nd1tieude:hover{
+   border-bottom:2px solid black;
+}
+.tieudend1{
+  width:200px;
+  height:40px;
+  padding-top:5px;
+  margin-left:50px;
+  margin-top:10px;
+  border-right:2px solid black;
+}
+.nd2tieude{
+  text-decoration:none;
+  color:black;
+  font-size:25px;
+ 
+} 
+.tieudend2{
+  width:200px;
+  height:40px;
+  padding-top:5px;
+  margin-left:15px;
+  margin-top:10px;
+  border-right:2px solid black
+}
+
+/* =====nd===== ======================================= anh dai dien */
+._slide{
+    width: 1897px;
+    height: 816px;
+    position: absolute;
+    top: 170px;
+    left:0px;
+    z-index: 1;
+    visibility: hidden;
+}
+._slide.active {
+    visibility: visible;
+    opacity: 1;
+}
+.anhmot{
+ width: 1897px;
+ height: 818px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+.tong_all{
+ background-color: black;
+ width: 600px;
+ height:820px;
+ position:absolute;
+ top:169px;
+ left: 80px;
+ z-index: 1;
+ transform:all 0.8s ease-in-our;
+ visibility:visible;
+ opacity: 0.7;
+}
+.all-chu{
+   position:absolute;
+  top:169px;
+  left:0px;
+}
+/* .anh-mot:hover .all-chu{
+  opacity:0.7;
+  visibility:hidden;
+} */
+.nguon{
+  position:absolute;
+  left:100px;
+  top: -154px;
+  font-size:40px;
+  color:white;
+  border-bottom:2px solid white;
+  width:400px;
+  height:70px;
+  font-style:italic;
+}
+.chu{
+   margin-top: -51px;
+   padding-right:100px;
+   font-size:120px;
+   color: white;
+   width:600px;
+   height:150px;
+}
+.chu1{
+   margin-top:10px;
+   padding-left:200px;
+   font-size:100px;
+   color: white;
+}
+ .nut{
+  position:absolute;
+  top: 259px;
+  left:60px;
+  z-index:3;
+  color: white;
+  font-size:27px;
+  width: 459px;
+  height:200px;
+  border-radius:4px;
+}
+/*----------------------------------------------------------------------------------  */
+ .all-nut{
+  position:absolute;
+  top:500px;
+  left:10px;
+  z-index:1;
+  display:flex;
+  visibility:hidden;
+}
+.anh-mot:hover .all-nut{
+ visibility:visible;
+}
+.nut-left{
+   position:absolute;
+   background-color:whitesmoke;
+   width:60px;
+   height:60px;
+   border-radius:40px;
+   border:5px;
+   padding-top:20px;
+   opacity:0.8;
+}
+.nut-right{
+   position:absolute;
+   margin-left: 1818px;
+   background-color:white;
+   width:60px;
+   height:60px;
+   border-radius:40px;
+   border:5px;
+   padding-top:20px;
+   opacity:0.8;
+} 
+
+/* ---------------------------------------- */
+._1nut {
+  margin-left: 1050px;
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 0px;
+  left: -398px;
+  margin-top: 690px;
+}
+
+._1nut1 {
+  margin-left: 9px;
+  background-color:whitesmoke;
+  height: 5px;
+  width: 27px;
+  border-radius:25px;
+  text-indent: -9999px;
+  z-index: 2;
+}
+._1nut1.kichhoat 
+{
+  background-color: yellow;
+}
+/* ================_slide active==== */
+
+
+
+
+
+
+
+
+
+
+/*=========================khungnho ========= */
+ .tong-khungnho{
+   background-color: darkgray;
+   width: 1897px;
+   height:350px;
+   padding-top:40px;
+   margin-top:4px;
+   position:relative;
+ }
+.khungnho{
+  display:flex;
+}
+.khungnho1{
+   width: 1897px;
+   height:270px;
+   margin-top:0px;
+   align-items:center;
+   justify-content:space-between;
+   margin:auto;
+}
+
+.ndkhungnho1{
+    width:490px;
+    height:270px;    
+    margin-top:-5px;
+}
+.khungnho1_1{
+  border:2px solid white;
+  width:790px;
+  height: 349px;
+  margin-top: -41px;
+}
+.trong {
+  margin-left: 25px;
+  font-size:30px;
+  width: 239px;
+  height: 38px;
+  margin-top: -20px;
+  color: black;
+  background-color: white;
+}
+.trong1 {
+  height: 30px;
+  margin-top: 0px;
+  font-size: 25px;
+  padding-left:15px;
+  padding-top: 30px;
+  padding-right: 15px;
+}
+.trong2 {
+  margin-left:px;
+  width: 300px;
+  margin-top: 234px;
+  font-size:25px;
+  background-color: whitesmoke;
+  color:white;
+}
+.trong3 {
+  font-size: 37px;
+  margin-left: 4px;
+  color: black;
+  margin-top: -41px;
+}
+
+ .nhomkhung{
+  background-color:black;
+  position:absolute;
+  z-index:5;
+  top:0px;
+  width:490px;
+  height:273px;  
+   opacity:0.7;
+  margin-top:48px;
+  margin-left:22px;
+  transition:0.4s ease;
+}
+.nhomkhung:hover{
+ visibility:hidden;
+ opacity:0;
+} 
+
+.ndkhungnho2{
+ color:white;
+ font-size:50px;
+ padding-top:80px;
+}
+
+.ndkhungnho{
+ color:white;
+ font-size:20px;
+ padding-top:30px;
+}
+
+/* ====================== */
+/*========================káº¿t thÃºc pháº§n cá»§a T.DÅ©ng=====================================================  */
+.than-bai{
+   background-color:#363636;
+   width:1897px;
+   height:2205px;
+}
+.danhmucnoibat{
+   position:relattive;
+   background-color: #2A3132;
+   width: 1897px;
+   height:750px;
+   border-top: 5px solid #BBBBBB;
+}
+.tieude1-than{
+   position:absolute;
+   width:300px;
+   height:50px;
+   font-size: 39px;
+   left: 46px;
+   padding-top: 26px;
+   color: white;
+}
+.nuttieude1-than{
+   position:absolute;
+   z-index:9;
+   top:1500px;
+   left:20px;
+}
+.left-tieude1{
+   background-color:white;
+   width:45px;
+   height:45px;
+   border-radius:50px;
+   padding-top:10px;
+   padding-left:20px;
+}
+.right-tieude2{
+   background-color:white;
+   width:45px;
+   height:45px;
+   margin-left:1745px;
+   border-radius:50px;
+   padding-top:10px;
+   padding-left:20px;
+}
+/* ===========================================================CHUYEN DÔNG HINH = */
+._1anhchuyen{
+  display: flex;
+	overflow: hidden;
+	width: 500px; 
+}
+._1anhchuyen img {
+	width: 100%;
+	height: auto;
+	transition: transform 0.5s ease-in-out;
+ }
+ 
+/*PHAN CHUYEN ANH  */
+.slick-next{
+   visibility:hidden;
+}
+.slick-next::before{
+  content: ">";
+  color:black;
+  width:56px;
+  height:56px;
+  font-size:50px;
+  border-radius:100px;
+  position:absolute;
+  background-color:white;
+  opacity:0.7;
+  visibility:visible;
+  top:340px;
+  left:1820px;
+  z-index:16;
+}
+
+.slick-prev{
+  visibility:hidden;
+}
+.slick-prev::before{
+  content: "<";
+  color:black;
+  width:56px;
+  height:56px;
+  font-size:50px;
+  border-radius:100px;
+  position:absolute;
+  background-color:white;
+  opacity:0.7;
+  visibility:visible;
+  top:340px;
+  left:16px;
+  z-index:16;
+}
+
+.slick{
+ margin-top:30px;
+}
+.slick-dots{
+  text-align:center;
+  width:100%;
+  height:20px;
+  margin-top:40px;
+}
+#slick-slide-control00{
+ font-size:13px;
+ display:flex;
+ color: transparent;
+ background-color:black;
+ text-shadow: none;
+ width: 26%;
+ height:6px;
+ border-radius:100px;
+ margin-top:10px;
+ position:absolute;
+ top:685px;
+ left:0px;
+ z-index:16;
+}
+#slick-slide-control01{font-size:13px;display:flex;color: transparent;text-shadow: none;width: 26%;height:6px;background-color:black;border-radius:100px;margin-top:10px;position:absolute;top:685px;left:480px;z-index:16;}
+#slick-slide-control02{font-size:13px;display:flex;color: transparent;text-shadow: none;width: 26%;height:6px;background-color:black;border-radius:100px;margin-top:10px;position:absolute;top:685px;left:960px;z-index:16;}
+#slick-slide-control03{
+font-size:13px;
+ display:flex;
+ color: transparent;
+ text-shadow: none;
+ width:24%;
+ height:6px;
+ background-color:black;
+ border-radius:100px;
+ margin-top:10px;
+ position:absolute;
+ top:685px;
+ left:1440px;
+ z-index:16;
+}
+
+/* ================= */
+.chuhai{
+  margin-left:97px;
+  font-size:25px;
+  margin-top:10px;
+  color: whitesmoke;
+}
+
+
+
+
+
+/*=============hinh to================  */
+.hinhto{
+   position:relative;
+   width:1895px;
+   height: 702px;
+}
+.hinhto1-than{
+   position:absolute;
+   width:1897px;
+   height:700px;
+  display: flex;
+  overflow: hidden; /* Để ẩn phần nằm ngoài khung hiển thị */
+  transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+.hinhto-than img {
+  width: 100%; /* Đảm bảo kích thước hình ảnh phù hợp */
+  min-width: 0; /* Tránh trường hợp ảnh bị tự động căng ra */
+}
+/*===========sam pham moi  */
+.sanphammoi{
+   position:relattive;
+   background-color:#DDDDDD;
+   width:1897px;
+   height:750px;
+   border-top: 0px solid #90AFC5;
+}
+.nuttieude2-than{
+   position:absolute;
+   z-index:9;
+   top:3000px;
+   left:20px;
+}
+.left-tieude3{
+   background-color:white;
+   width:45px;
+   height:45px;
+   border-radius:50px;
+   padding-top:10px;
+   padding-left:20px;
+}
+.right-tieude4{
+   background-color:white;
+   width:45px;
+   height:45px;
+   margin-left:1745px;
+   border-radius:50px;
+   padding-top:10px;
+   padding-left:20px;
+}
+
+/*========================hznetroi=====================================================  */
+.tach
+{
+font-size:0px;
+margin-top:-13px;
+}
+.phancuahz {
+  height: 2752px;
+  width: 1600px;
+  margin-left:150px;
+ 
+}
+.allkhung1 {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 2741px;
+background-color:#898989;
+}
+
+.image-container {
+  margin-left: 120px;
+  margin-top: -1325px;
+  margin-right: 120px;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+}
+
+.image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 3s;
+}
+
+.layer {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+transition: opacity 1.5s, transform 1.5s;
+}
+
+.yellow-layer {
+background: yellow;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.black-layer {
+background: black;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.text-layer {
+margin-top: -270px;
+background: rgba(0, 0, 0, 0.7);
+color: white;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.image-container:hover .image {
+transform: translateY(-100%);
+}
+
+.image-container:hover .yellow-layer {
+opacity: 1;
+transform: translateY(0);
+}
+
+.image-container:hover .black-layer {
+opacity: 1;
+transform: translateY(0);
+}
+
+.image-container:hover .text-layer {
+opacity: 1;
+transform: translateY(0);
+}
+
+.text-layer p {
+transition: transform 0.5s;
+}
+
+/*-------------------------------------------------*/
+.image-container1 {
+margin-top: -1325px;
+margin-right:120px;
+position: relative;
+overflow: hidden;
+width: 300px;
+height: 400px;
+}
+
+.image1 {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 3s;
+}
+
+.layer1 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+transition: opacity 1.5s, transform 1.5s;
+}
+
+.yellow-layer1 {
+background: yellow;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.black-layer1 {
+background: black;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.text-layer1 {
+margin-top: -270px;
+background: rgba(0, 0, 0, 0.7);
+color: white;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.image-container1:hover .image1 {
+transform: translateY(-100%);
+}
+
+.image-container1:hover .yellow-layer1 {
+opacity: 1;
+transform: translateY(0);
+}
+
+.image-container1:hover .black-layer1 {
+opacity: 1;
+transform: translateY(0);
+}
+
+.image-container1:hover .text-layer1 {
+opacity: 1;
+transform: translateY(0);
+}
+
+.text-layer1 p {
+transition: transform 0.5s;
+}
+.demochu {
+margin-right: 40px;
+color: whitesmoke;
+margin-top:-2250px;
+height: 400px;
+font-size: 30px;
+width: 600px;
+border: 2px solid white;
+}
+
+.image-container2 {
+  margin-top: -1325px;
+  margin-right: 120px;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 660px;
+}
+
+.image2 {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 3s;
+}
+
+.layer2 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+transition: opacity 1.5s, transform 1.5s;
+}
+
+.yellow-layer2 {
+background: yellow;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.black-layer2 {
+background: black;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.text-layer2 {
+margin-top: -270px;
+background: rgba(0, 0, 0, 0.7);
+color:white;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transform: translateY(100%);
+}
+
+.image-container2:hover .image2 {
+transform: translateY(-100%);
+}
+
+.image-container2:hover .yellow-layer2 {
+opacity: 1;
+transform: translateY(0);
+}
+
+.image-container2:hover .black-layer2 {
+opacity: 1;
+transform: translateY(0);
+}
+
+.image-container2:hover .text-layer2 {
+opacity: 1;
+transform: translateY(0);
+}
+
+.text-layer2 p {
+transition: transform 0.5s;
+}
+/*================================tong menu nho================ */
+.tongthanhngang {
+  margin-top: -2730px;
+  color: black;
+  background-color:white;
+  width:1400px;
+  height:30px;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-bar {
+height:7px;
+background-color:white;
+flex-grow:1;
+}
+
+.content {
+color: white;
+font-size: 24px;
+}
+
+.left-bar::before,
+.right-bar::before {
+content: "";
+height: 7px;
+background-color: white;
+width: 10px;
+display: block;
+margin: 0 10px;
+}
+.content1 {
+  margin-left: 106px;
+  margin-right: 69px;
+  font-size: 18px;
+}
+.content1:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+}
+.content2 {
+  font-size: 18px;
+  margin-right: 69px;
+}
+.content2:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+}
+.content3 {
+  font-size: 18px;
+  margin-right: 69px;
+}
+.content3:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+}
+.content4 {
+  font-size: 18px;
+  margin-right: 69px;
+}
+.content4:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+}
+.content5 {
+  font-size: 18px;
+  margin-right: 69px;
+}
+.content5:hover
+{
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+
+.nut-left1 {
+  font-size: 25px;
+  margin-left: 22px;
+  margin-top: -600px;
+}
+.nut-left1:hover
+{
+  font-size: 27px
+}
+.nut-right1 {
+  font-size: 25px;
+  margin-right: 22px;
+  margin-top: -600px;
+}
+.nut-right1:hover
+{
+  font-size: 27px; 
+}
+.anhduoi
+{
+  display: flex;
+}
+/*====================================class danhmucnoibayt*/
+
+
+.anhnam2 {
+margin-left: 84px;
+margin-top: 64px;
+position: relative;
+height: 550px;
+width: 310px;
+overflow: hidden;
+}
+
+
+
+.image3,
+.image4 {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: opacity 0.5s;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.image4 {
+opacity: 0;
+}
+
+.anhnam2:hover .image3 {
+opacity: 0;
+}
+
+.anhnam2:hover .image4 {
+opacity: 1;
+}
+/*=====================================22222222222*/
+.anhnam3 {
+  margin-left: 130px;
+  margin-top: 64px;
+  position: relative;
+  height: 550px;
+  width: 310px;
+  overflow: hidden;
+}
+
+.image5,.image6 {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: opacity 0.5s;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.image6 {
+opacity: 0;
+}
+
+.anhnam3:hover .image5 {
+opacity: 0;
+}
+
+.anhnam3:hover .image6 {
+opacity: 1;
+}
+
+/*=====================================33333333333*/
+.anhnam4 {
+  margin-left: 130px;
+  margin-top: 64px;
+  position: relative;
+  height: 550px;
+  width: 350px;
+  overflow: hidden;
+}
+
+
+.image7,.image8 {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: opacity 0.5s;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.image8 {
+opacity: 0;
+}
+
+.anhnam4:hover .image7 {
+opacity: 0;
+}
+
+.anhnam4:hover .image8 {
+opacity: 1;
+}
+/*====================================class danhmucnoibayt*/
+/*=====================================4444444444*/
+.anhnam5 {
+  margin-left: 130px;
+  margin-top: 64px;
+  position: relative;
+  height: 550px;
+  width: 350px;
+  overflow: hidden;
+}
+
+
+.image9,
+.image10 {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: opacity 0.5s;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.image10 {
+opacity: 0;
+}
+
+.anhnam5:hover .image9 {
+opacity: 0;
+}
+
+.anhnam5:hover .image10 {
+opacity: 1;
+}
+/*=================Ket Thuc===============class danhmucnoibayt*/
+
+
+
+
+/*=================phantren dong ho / tui / quan au ====================class=them 01 dang sau===========*/
+.chuduoi01 {
+  margin-top: 30px;
+  margin-left: 80px;
+  color: black;
+  display: flex;
+  font-size:30px;
+}
+.chuanh301
+{
+margin-left: 150px;
+}
+.chuanh401
+{
+margin-left: 330px;
+}
+.chuanh501
+{
+margin-left: 400px;
+}
+
+/*==================================================  */
+.chuduoi {
+  margin-top: 30px;
+  margin-left: 80px;
+  color: black;
+  display: flex;
+  font-size:30px;
+}
+.chuanh3
+{
+margin-left: 100px;
+}
+.chuanh4
+{
+margin-left: 150px;
+}
+.chuanh5
+{
+margin-left: 150px;
+}
+/*====================================================================*/
+
+.chuduoi1 {
+  margin-top: 30px;
+  margin-left: 60px;
+  color: whitesmoke;
+  display: flex;
+  font-size:30px;
+}
+.chuhai1:hover
+{
+color:black;
+text-decoration:underline
+}
+.chuanh31
+{
+margin-left: 167px;
+}
+.chuba1:hover
+{
+color:black;
+text-decoration:underline
+}
+.chuanh41
+{
+margin-left: 169px;
+}
+.chubon1:hover
+{
+color:black;
+text-decoration:underline
+}
+.chunam1:hover
+{
+color:black;
+text-decoration:underline
+}
+.chuanh51
+{
+margin-left: 207px;
+}
+/*====================================================================*/
+
+.chuduoi2 {
+  margin-top: 30px;
+  margin-left: 76px;
+  color: whitesmoke;
+  display: flex;
+  font-size:30px;
+}
+.chuhai2:hover
+{
+color:black;
+text-decoration:underline
+}
+.chuanh32
+{
+margin-left: 179px;
+}
+.chuba2:hover
+{
+color:black;
+text-decoration:underline
+}
+.chuanh42
+{
+margin-left: 198px;
+}
+.chubon2:hover
+{
+color:black;
+text-decoration:underline
+}
+.chunam2:hover
+{
+color:black;
+text-decoration:underline
+}
+.chuanh52
+{
+margin-left: 222px;
+}
+
+/*====================================================================*/
+.chumau {
+  color: yellow;
+}
+/*=========================chidung========================*/
+
+.Khung_Silder{
+  position:relative;
+  width: 1896px;
+  height: 554px;
+  background-color: darkgrey;
+}
+.Slider_Anh{
+  float: left;
+}
+.slider-anh{
+  width:1100px;
+  height:550px;
+  margin-left:80px;
+}
+.Khung_Silder .login_DangNhap{
+  justify-content: center;
+  width: 700px;
+  height: 557px;
+  left:1100px;
+  float: right;
+  background-color: #07566D;
+  position:absolute;
+}
+.Khung_Silder .login_DangNhap .box_Login{
+  width: 760px;
+  height: 530px;
+  padding: 30px 20px;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 28px;
+  font-weight: bold;
+  opacity: 0.7;
+  position: relative;
+}
+.Khung_Silder .login_DangNhap .label_NoiDung{
+  overflow: hidden;
+  position: absolute;
+  top: 150px;
+  left: 36px;
+  font-size: 25px;
+  font-style: italic;
+  color: aliceblue;
+}
+.Khung_Silder .login_DangNhap .ChoNhapConTent{position: absolute;top: 260px;left: 103px;}
+.Khung_Silder .login_DangNhap .buttuon_DangKy{
+  margin-left: 95px;
+  margin-right: 60px;
+  margin-top: 43px;
+  text-align: center;
+  background-color: #333;
+  width: 500px;
+  height: 30px;
+  justify-content: center;
+  line-height: 1.8;
+  
+}
+.Khung_Silder .login_DangNhap .buttuon_DangKy p{
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.clear{
+  clear: both;
+}
+.footer{
+  width: 1896px;
+  background-color: #777777;
+  text-align: center;
+}
+.footer .socials{
+  font-size: 52px;
+  padding: 20px 10px;
+}
+.footer .socials a{
+  color: #424040;
+}
+.footer .socials a:hover{
+  opacity: 0.4;
+  color: #fff;
+}
+.footer .copy{
+  font-size: 29px;
+    margin-top: -7px;
+    color: #fff;
+}
+.footer .copy a:hover{
+  opacity: 0.9;
+  color: #000;
+}
+/* ================Dia chi ======================== */
+.khungdiachi1{
+  width:1898px;
+  height:400px;
+  position:relative;
+}
+.nd_dc1{
+  position:absolute;
+  top:4120px;
+  left:750px;
+  width:400px;
+  height:50px;
+  font-size:40px;
+  color:white;
+}
+.nd_dc2{
+  position:absolute;
+  top:4200px;
+  left:850px;
+  width:150px;
+  height:50px;
+  font-size:30px;
+  color:white;
+  padding: 10px;
+}
+.nd_dc2:hover{
+    border-bottom:2px solid white;
+}
+/*==================phan ket của Hoàng Dũng  */
+.noidung-ket{
+  display:flex;
+  background-color: cadetblue;
+  width: 1897px;
+  height: 424px;
+}
+.hang-1end{
+  background-color: #2A3132;
+  border-top: 2px solid #DCDCDC;
+  border-bottom:2px solid #DCDCDC;
+  width: 1897px;
+  height: 416px;
+  margin-top: 3px;
+  position: relative;
+  color: white;
+}
+.logo-end{
+ display:flex;
+}
+.logoend{
+  width:100px;
+  height:100px;
+  border-radius:50px;
+  margin-left:80px;
+  margin-top:10px;
+}
+.tenlogo{
+  margin-top: 31px;
+  margin-left:20px;
+  font-size: 67px;
+}
+.nd1-end-hang01{
+  position:relative;
+  height:123px;
+  width:530px;
+  top:25px;
+  left:80px;
+  font-size: 20px;
+}
+.nd1-end-hang02{
+  position:relative;
+  height:100px;
+  width:500px;
+  top:25px;
+  left:80px;
+  font-size: 20px;
+}
+.nd1-end-hang03{
+  position:absolute;
+  height:23px;
+  width:500px;
+  left:80px;
+  font-size: 20px;
+}
+/*==================================================================  */
+.hang-2end{
+  width:400px;
+  height: 366px;
+  margin-top: 52px;
+  margin-left:-1200px;
+  position:relative;
+  color: white;
+}
+._02hang{
+  font-size: 33px;
+  padding-left:70px;
+}
+._02nd1{
+  position:absolute;
+  font-size: 25px;
+  top:80px;
+  left:70px;
+}
+._02nd2{
+  position:absolute;
+  font-size: 25px;
+  top:120px;
+  left:70px;
+}
+._02nd3{
+  position:absolute;
+  font-size: 25px;
+  top:160px;
+  left:70px;
+}
+._02nd4{
+  position:absolute;
+  font-size: 25px;
+  top:200px;
+  left:70px;
+}
+._02nd5{
+  position:absolute;
+  font-size: 25px;
+  top:240px;
+  left:70px
+}
+/*=======================  */
+.hang-3end{
+  width:400px;
+  height: 369px;
+  margin-top:50px;
+  margin-left:-10px;
+  position:relative;
+  color: white;
+}
+._03hang{
+  font-size: 30px;
+  padding-left:70px;
+  padding-top: 8px;
+}
+._03nd1{
+  position:absolute;
+  font-size:20px;
+   top:80px;
+   left:70px;
+}
+._03nd2{
+  position:absolute;
+  font-size:20px;
+  top:120px;
+  left:70px;
+}
+._03nd3{
+  position:absolute;
+  font-size:20px;
+  top:160px;
+  left:70px;
+}
+._03nd4{
+  position:absolute;
+  font-size:20px;
+  top:200px;
+   left:70px;
+}
+._03nd5{
+  position:absolute;
+  font-size:20px;
+  top:240px;
+  left:70px;
+}
+._03nd6{
+  position:absolute;
+  font-size:20px;
+  top:280px;
+  left:70px;
+}
+/* ============================== */
+._04hang{
+  width: 325px;
+  height: 369px;
+  position:relative;
+  font-size: 31px;
+  color: white;
+}
+.ketnoi{
+   font-size:25px;
+   padding-top:50px;
+}
+.fac{
+   padding-top:20px; 
+   padding-right:10px;
+}
+.chim{
+     padding-top:20px; 
+     padding-right:10px;
+}
+.you{
+     padding-top:20px; 
+     padding-right:10px;
+}
+/* ====================== */
+.phuongthuc{
+   padding-top:50px;
+   padding-bottom:20px;
+}
+.baove{
+   padding-top:20px;
+}
+/* ------------------------ket thuc phần hoàng dũng----- */
+#zalo-icon {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  margin-top: 600px;
+}
+#mess-icon {
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  margin-top: 700px;
+}
+.iconzalo:hover + .zalo1 {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.zalo1 {
+  background: #2424;
+  border-radius: 37%;
+  transition: 1s;
+  visibility: hidden;
+  opacity: 0;
+  height: 230px;
+  width: 300px;
+  margin-left: 1384px;
+  z-index: 999;
+}
